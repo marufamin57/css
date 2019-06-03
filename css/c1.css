@@ -1,0 +1,25 @@
+#p1{
+    color: rgb(14, 27, 216);
+    text-align: center;
+    font-size: x-large;
+}
+#p2{
+    color: chocolate;
+    background: black;
+    font-size: 24pt;
+
+}
+.par{
+    text-align: right;
+}
+h1.q{
+    /* background: rebeccapurple; */
+    border: 2px solid slateblue;
+}
+p.q{
+    color: darkgreen;
+
+}
+body{
+    background-color: rgb(255, 255, 50);
+}
