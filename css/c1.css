@@ -1,7 +1,7 @@
 #p1 {
   color: rgb(14, 27, 216);
   text-align: center;
-  font-size: x-large;
+  font-size: 3vw;
   width: 50%;
   background-color: azure;
   padding: 50px;
@@ -14,6 +14,7 @@
   text-shadow: 3px 3px greenyellow;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
+  /* font-variant: small-caps; */
 }
 #p2 {
   color: chocolate;
@@ -44,4 +45,31 @@ body {
   width: 800px; */
   max-width: 100%;
   padding: 50px;
+}
+#link1 {
+  line-height: 5;
+}
+#link {
+  font-size: 200%;
+}
+
+#link:link,
+#link:visited {
+  background-color: blue;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  display: inline;
+}
+#link:hover {
+  color: blue;
+  text-decoration: underline;
+  background-color: chartreuse;
+  font-size: 100%;
+}
+
+#link:active {
+  text-decoration: none;
+  color: green;
 }
