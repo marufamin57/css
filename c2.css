@@ -1,0 +1,28 @@
+body{
+    margin: 100px ;
+    border: 5px dotted;
+}
+.head{
+    text-align: center;
+}
+table,td,th{
+    border: 2px solid red;
+    text-align: center;
+}
+table{
+    margin: 50px;
+    border-collapse: collapse;
+    width: 50%;
+}
+td:hover,th:hover{
+    background-color: aquamarine;
+}
+tr:nth-child(even){
+    background-color: blanchedalmond;
+}
+th{
+    background-color: chartreuse;
+}
+caption{
+    caption-side: bottom;
+}
